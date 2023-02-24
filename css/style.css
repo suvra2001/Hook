@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Bellona";
+    src: url("Bellona2-Regular.otf") format("opentype");
+  }
+
+  
+h1 {
+    font-family: "Bellona", sans-serif;
+    color: white;
+  }
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  
+nav {
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+}
+
+p {
+    font-family: "Raleway";
+}
+
+body {
+    background-image: url("/images/AdobeStock_172153015.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: -1;
+}
+
+.navbar li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.navButton {
+    font-family: "Raleway";
+    font-weight: 500;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px 100px;
+    margin-top: 40px;
+    transition-duration: 0.4s;
+  }
+
+  .Hero {
+    margin-top: 40px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .Hero h1 {
+    font-size: 75px;
+    margin: 90px;
+  }
