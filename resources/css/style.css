@@ -26,7 +26,7 @@ p {
 }
 
 body {
-    background-image: url("/assets/images/hero.jpeg");
+    background-image: url("/resources/images/hero.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
